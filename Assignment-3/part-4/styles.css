@@ -32,7 +32,9 @@ body {
   }
   
   nav ul {
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0;
     list-style: none;
   }
@@ -44,11 +46,13 @@ body {
   }
   
   .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 1px; /* 1 pixel gap */
     list-style: none;
-    margin: 0;
-    padding: 0;
   }
-
-  .feature {
-      width: 200px;
+  
+  img.feature {
+    float: left;
+    margin: 0 20px 20px 0;
   }
