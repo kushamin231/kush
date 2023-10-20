@@ -1,45 +1,63 @@
-/* General setup */
-
 * {
   box-sizing: border-box;
 }
 
+/* Style for the entire webpage */
 body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
+  margin: 0 auto; /* Center the page horizontally */
+  min-width: 1000px; /* Set a minimum width */
+  max-width: 1400px; /* Set a maximum width */
 }
 
-/* Layout */
-
+/* Styling for sections */
 section {
-  float: left;
-  width: 50%;
+  float: left; /* Float sections to the left */
+  width: 50%; /* Occupy 50% of the width */
 }
 
+/* Styling for sidebars */
 aside {
-  float: left;
-  width: 30%;
+  float: left; /* Float asides to the left */
+  width: 30%; /* Occupy 30% of the width */
 }
 
+/* Styling for navigation */
 nav {
-  float: left;
-  width: 20%;
+  float: left; /* Float navigation to the left */
+  width: 20%; /* Occupy 20% of the width */
 }
 
+/* Clear floats to prevent overlapping content */
 footer {
   clear: both;
 }
 
+/* Add padding to all major sections of the page */
 header, section, aside, nav, footer {
   padding: 20px;
 }
 
-/* header and footer */
-
+/* Style headers and footers with a border */
 header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+  border-top: 5px solid #a66; /* Add a top border with color #a66 */
+  border-bottom: 5px solid #a66; /* Add a bottom border with color #a66 */
 }
+
+/* Define a custom font for use in the body */
+@font-face {
+  font-family: 'KalamRegular';
+  src: url('KalamRegular.woff') format('woff'); /* Load the custom font */
+}
+
+/* Apply custom font to the entire body */
+body {
+  font-family: 'SerifFont', serif;
+}
+
+/* Apply custom font to specified header elements */
+h1, h2, h3 {
+  font-family: 'KalamRegular';
+}
+
 
 /* WRITE YOUR CODE BELOW HERE */
