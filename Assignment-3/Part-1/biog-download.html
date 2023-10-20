@@ -52,11 +52,17 @@ A very brief description of the file: The biography in this HTML text has been s
         color: green; /* Makes the links green on hover */
       }
 
-      
+      /* Added styling for the ul with class "contact" */
+      ul.contact {
+        background-color: #eeeeee;
+        border: 5px solid purple;
+        padding: 10px;
+      }
     </style>
   </head>
 
   <body>
+    <!-- Main heading -->
     <h1>Jane Doe</h1>
     <div class="job-title">Web Developer</div>
     <p>
@@ -72,8 +78,10 @@ A very brief description of the file: The biography in this HTML text has been s
       parts of sentences fly into your mouth.
     </p>
 
+    <!-- Secondary heading for contact information -->
     <h2>Contact information</h2>
-    <ul>
+    <ul class="contact">
+      <!-- Contact details -->
       <li>
         Email:
         <a href="mailto:jane@example.com">jane@example.com</a>
