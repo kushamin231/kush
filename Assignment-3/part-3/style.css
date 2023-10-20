@@ -59,5 +59,73 @@ h1, h2, h3 {
   font-family: 'KalamRegular';
 }
 
+/* Set base font size and line height for the body */
+body {
+  font-size: 10px;
+  line-height: 1.5;
+}
 
-/* WRITE YOUR CODE BELOW HERE */
+/* Style for top-level headers */
+h1 {
+  text-align: center; /* Center-align the header */
+  letter-spacing: 2px; /* Add letter spacing */
+}
+
+/* Style for paragraphs */
+p {
+  letter-spacing: 1px; /* Add letter spacing */
+  word-spacing: 2px; /* Add word spacing */
+  text-indent: 20px; /* Set a text indent of 20px */
+}
+
+/* Style for hyperlinks */
+a {
+  color: red; /* Set the text color to red */
+  text-decoration: underline; /* Add underline to links */
+  outline: none; /* Remove link outline */
+}
+
+/* Hover and focus styles for hyperlinks */
+a:hover, a:focus {
+  color: red; /* Set link text color to red */
+  text-decoration: none; /* Remove underline on hover/focus */
+}
+
+/* Active link style */
+a:active {
+  color: red; /* Set link text color to red when active */
+}
+
+/* Style lists and list items */
+ul, ol {
+  list-style-position: inside; /* Position the list marker inside the list item */
+}
+
+li {
+  line-height: 1.5; /* Set line height for list items */
+  list-style: square inside; /* Use square markers inside list items */
+}
+
+/* Style navigation lists and list items */
+nav ul {
+  padding: 0; /* Remove padding from navigation lists */
+  list-style: none; /* Remove list markers */
+}
+
+nav li {
+  margin: 5px 0; /* Add margin to navigation list items */
+  border: 1px solid red; /* Add a red border */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style navigation links */
+nav a {
+  color: red; /* Set text color to red */
+  text-decoration: none; /* Remove underline from navigation links */
+}
+
+/* Hover style for navigation links */
+nav a:hover {
+  color: red; /* Set link text color to red on hover */
+}
