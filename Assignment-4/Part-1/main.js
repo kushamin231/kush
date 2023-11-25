@@ -47,3 +47,15 @@ function result() {
     const name = customName.value;
     newStory = newStory.replace(/Jimmy/g, name);
   }
+  
+  if (document.getElementById("uk").checked) {
+    const weight = Math.round(300 * 0.071429); // converting pounds to stones
+    const temperature = Math.round((94 - 32) * (5 / 9)); // converting Fahrenheit to Celsius
+    
+    newStory = newStory.replace('94 fahrenheit', `${temperature} centigrade`);
+    newStory = newStory.replace('300 pounds', `${weight} stone`);
+  }
+  
+  story.textContent = newStory;
+  story.style.visibility = 'visible';
+}
