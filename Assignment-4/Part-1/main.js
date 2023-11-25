@@ -59,3 +59,5 @@ function result() {
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
+
+// The code is readdy to push to origin
