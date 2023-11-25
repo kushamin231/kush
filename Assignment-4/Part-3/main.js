@@ -92,3 +92,6 @@ function loop() {
 }
 
 loop();
+
+
+// The code is ready to push to origin 
