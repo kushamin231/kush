@@ -13,29 +13,29 @@
     <meta charset="utf-8">
   
     <title>Accessibility assessment</title>
+    <!-- Including Google Fonts and external stylesheet -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
       type="text/css">
     <link rel="stylesheet" href="style.css">
   
-    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
-    <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
+  
   </head>
   
   <body>
     <header>
-  
+      <!-- Header section containing website title and navigation -->
       <h1>Welcome to our wildlife website</h1>
   
       <nav>
+        <!-- Navigation menu -->
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Our team</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Blog</a></li>
         </ul>
-  
+
+        <!-- Search form -->
         <form class="search" role="search">
           <input type="search" name="q" placeholder="Search query" aria-label="search box">
           <button type="submit">Go!</button>
@@ -45,6 +45,7 @@
     </header>
   
     <main>
+       <!-- Main content of the website -->
       <article>
         <h2>The trouble with Bears</h2>
         <p>
@@ -71,9 +72,11 @@
           areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find
           out below. The below table also gives you some useful facts about bears.
         </p>
+        <!-- Table displaying information about bear types -->
         <table>
           <caption>Some useful facts about wild and urban bears</caption>
           <thead>
+            <!-- Table headers -->
             <tr>
               <th scope="col">Bear Type</th>
               <th scope="col">Coat</th>
@@ -84,6 +87,7 @@
             </tr>
           </thead>
           <tbody>
+            <!-- Table rows containing bear information -->
             <tr>
               <th scope="row">Wild</th>
               <td>Brown or black</td>
@@ -205,7 +209,8 @@
           </div>
         </section>
       </article>
-  
+
+      <!-- Sidebar section with related articles -->
       <div class="secondary">
         <h2>Related</h2>
   
@@ -220,11 +225,17 @@
     </main>
   
     <footer>
+      <!-- Footer section with copyright information -->
       <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
-  
+
+    <!-- Including JavaScript file -->
     <script src="main.js"></script>
   
   </body>
   
   </html>
+
+
+
+  <!-- The code is ready to push to origin-->
